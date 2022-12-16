@@ -1,6 +1,7 @@
 # Kronometre-Timer
 Kayıt yapan kronometre
 
+![kronometre](https://user-images.githubusercontent.com/18152469/208087132-b25d8d56-469b-4171-a781-a2ed8d7b88b7.png)
 
-![kronometre](https://user-images.githubusercontent.com/18152469/208084509-56418419-b0e4-4a58-a29f-adf2c50d6ca1.png)
+
 For learning
