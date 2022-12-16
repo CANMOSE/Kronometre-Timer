@@ -22,27 +22,29 @@ Partial Class Kronometre
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Kronometre))
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label3 = New System.Windows.Forms.Label
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.Label5 = New System.Windows.Forms.Label
-        Me.Label6 = New System.Windows.Forms.Label
-        Me.Label7 = New System.Windows.Forms.Label
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.Button5 = New System.Windows.Forms.Button
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.ListBox1 = New System.Windows.Forms.ListBox
-        Me.Label8 = New System.Windows.Forms.Label
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.Button6 = New System.Windows.Forms.Button
-        Me.TextBox1 = New System.Windows.Forms.TextBox
-        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog
-        Me.Button7 = New System.Windows.Forms.Button
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -50,33 +52,33 @@ Partial Class Kronometre
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold)
         Me.Label1.ForeColor = System.Drawing.Color.Blue
-        Me.Label1.Location = New System.Drawing.Point(198, 10)
+        Me.Label1.Location = New System.Drawing.Point(258, 12)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(91, 31)
+        Me.Label1.Size = New System.Drawing.Size(50, 31)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Saniye"
+        Me.Label1.Text = "Ms"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold)
         Me.Label2.ForeColor = System.Drawing.Color.Blue
-        Me.Label2.Location = New System.Drawing.Point(92, 10)
+        Me.Label2.Location = New System.Drawing.Point(170, 10)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(100, 31)
+        Me.Label2.Size = New System.Drawing.Size(91, 31)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Dakika"
+        Me.Label2.Text = "Saniye"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Blue
-        Me.Label3.Location = New System.Drawing.Point(20, 10)
+        Me.Label3.Location = New System.Drawing.Point(73, 10)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(66, 31)
+        Me.Label3.Size = New System.Drawing.Size(100, 31)
         Me.Label3.TabIndex = 1
-        Me.Label3.Text = "Saat"
+        Me.Label3.Text = "Dakika"
         '
         'Timer1
         '
@@ -97,7 +99,7 @@ Partial Class Kronometre
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(223, 54)
+        Me.Label5.Location = New System.Drawing.Point(272, 53)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(28, 31)
         Me.Label5.TabIndex = 8
@@ -108,7 +110,7 @@ Partial Class Kronometre
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold)
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(130, 54)
+        Me.Label6.Location = New System.Drawing.Point(202, 53)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(28, 31)
         Me.Label6.TabIndex = 9
@@ -119,7 +121,7 @@ Partial Class Kronometre
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold)
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(35, 54)
+        Me.Label7.Location = New System.Drawing.Point(104, 53)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(28, 31)
         Me.Label7.TabIndex = 10
@@ -229,12 +231,36 @@ Partial Class Kronometre
         Me.Button7.Text = "Dosya Yeri Seç"
         Me.Button7.UseVisualStyleBackColor = False
         '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold)
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(22, 53)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(28, 31)
+        Me.Label9.TabIndex = 23
+        Me.Label9.Text = "0"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.Blue
+        Me.Label10.Location = New System.Drawing.Point(6, 10)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(66, 31)
+        Me.Label10.TabIndex = 22
+        Me.Label10.Text = "Saat"
+        '
         'Kronometre
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(514, 283)
+        Me.ClientSize = New System.Drawing.Size(504, 273)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button6)
@@ -280,5 +306,6 @@ Partial Class Kronometre
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents SaveFileDialog1 As System.Windows.Forms.SaveFileDialog
     Friend WithEvents Button7 As System.Windows.Forms.Button
-
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
 End Class

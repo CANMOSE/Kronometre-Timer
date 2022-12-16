@@ -1,10 +1,14 @@
 ﻿Public Class Kronometre
-    Dim saniye, dakika, saat As Integer
+    Dim saniye, dakika, saat, ms As Integer
 
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
-        saniye = saniye + 1
 
+        ms = ms + 1
+        If ms = 100 Then
+            saniye = saniye + 1
+            ms = 0
+        End If
         If saniye = 60 Then
             dakika = dakika + 1
             saniye = 0
@@ -16,9 +20,10 @@
 
         If saat = 24 Then saat = 0
 
-        Label5.Text = saniye
-        Label6.Text = dakika
-        Label7.Text = saat
+        Label5.Text = ms
+        Label6.Text = saniye
+        Label7.Text = dakika
+        Label9.Text = saat
 
 
     End Sub
@@ -29,6 +34,7 @@
         saat = 0
         dakika = 0
         saniye = 0
+        ms = 0
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -47,6 +53,7 @@
         saat = 0
         dakika = 0
         saniye = 0
+        ms = 0
 
     End Sub
 
@@ -61,12 +68,7 @@
     End Sub
 
     Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        ListBox1.Items.Add("Saat")
-        ListBox1.Items.Add(Label7.Text)
-        ListBox1.Items.Add("Dakika")
-        ListBox1.Items.Add(Label6.Text)
-        ListBox1.Items.Add("Saniye")
-        ListBox1.Items.Add(Label5.Text)
+        ListBox1.Items.Add(Label9.Text & ":" & Label7.Text & ":" & Label6.Text & ":" & Label5.Text)
         ListBox1.Items.Add("-----------")
 
     End Sub
@@ -88,6 +90,18 @@
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         ListBox1.Items.Clear()
 
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
+
+    End Sub
+
+    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
 
     End Sub
 
